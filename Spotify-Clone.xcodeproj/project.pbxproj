@@ -17,6 +17,8 @@
 		09F934292B629DEB004081F0 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F934282B629DEB004081F0 /* LibraryViewController.swift */; };
 		09F9342D2B629E4E004081F0 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9342C2B629E4E004081F0 /* AuthViewController.swift */; };
 		09F9342F2B629E66004081F0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F9342E2B629E66004081F0 /* WelcomeViewController.swift */; };
+		09F934312B63B4AA004081F0 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F934302B63B4AA004081F0 /* AuthManager.swift */; };
+		09F934332B63C370004081F0 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F934322B63C370004081F0 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		09F934282B629DEB004081F0 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
 		09F9342C2B629E4E004081F0 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		09F9342E2B629E66004081F0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		09F934302B63B4AA004081F0 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		09F934322B63C370004081F0 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 				09F9340B2B627A5A004081F0 /* Assets.xcassets */,
 				09F934022B627A59004081F0 /* AppDelegate.swift */,
 				09F934042B627A59004081F0 /* SceneDelegate.swift */,
+				09F934322B63C370004081F0 /* Extension.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 		09F9341A2B627DFC004081F0 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				09F934302B63B4AA004081F0 /* AuthManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -214,9 +220,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				09F934272B629DC9004081F0 /* SearchViewController.swift in Sources */,
+				09F934312B63B4AA004081F0 /* AuthManager.swift in Sources */,
 				09F9342F2B629E66004081F0 /* WelcomeViewController.swift in Sources */,
 				09F934252B629D93004081F0 /* TabBarViewController.swift in Sources */,
 				09F934072B627A59004081F0 /* HomeViewController.swift in Sources */,
+				09F934332B63C370004081F0 /* Extension.swift in Sources */,
 				09F9342D2B629E4E004081F0 /* AuthViewController.swift in Sources */,
 				09F934032B627A59004081F0 /* AppDelegate.swift in Sources */,
 				09F934292B629DEB004081F0 /* LibraryViewController.swift in Sources */,
